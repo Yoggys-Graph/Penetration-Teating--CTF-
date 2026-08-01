@@ -1,4 +1,4 @@
-# CTF-Write-up
+# Penetration Testing CTF Write-up
   Capture time flag
 🛡️ CTF Write-up: [SOC Analyst]
 
