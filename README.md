@@ -9,10 +9,6 @@ Penetration testing stages.
 
 Welcome to my Cybersecurity CTF Portfolio, a curated collection of TryHackMe room writeups documenting my hands-on journey through penetration testing and ethical hacking.
 
-Each writeup follows a structured methodology:
-
-«Recon → Enumeration → Exploitation → Privilege Escalation → Flag Capture»
-
 ---
 
 🎯 Portfolio Goals
@@ -45,8 +41,6 @@ Each writeup follows a structured methodology:
 
 ---
 
-🟡 Medium Rooms
-
 🔥 PENTEST_COMPLETE
 
 - Full penetration testing workflow
@@ -67,35 +61,6 @@ THM{PENTEST_COMPLETE}
 
 ---
 
-📄 Writeup Template
-
-Each room follows this standard:
-
-# Room Name
-
-## Overview
-Brief description of the challenge
-
-## Reconnaissance
-Commands and findings
-
-## Enumeration
-Discovered services and vulnerabilities
-
-## Exploitation
-Attack steps and payloads
-
-## Privilege Escalation
-How root/admin access was obtained
-
-## Flags
-THM{...}
-
-## Lessons Learned
-Key takeaways
-
----
-
 🛠️ Tools Used
 
 - "nmap" – Network scanning
@@ -111,23 +76,12 @@ Key takeaways
 
 All screenshots are stored in:
 
-/assets/ or /room-name/screenshots/
 
-They document key steps such as:
 
 - Scan results
 - Exploits
 - Shell access
 - Flag capture
-
----
-
-🚀 How to Use This Repo
-
-1. Browse by difficulty (easy → hard)
-2. Open any room folder
-3. Read the step-by-step writeup
-4. Reproduce the attack in your lab
 
 ---
 
@@ -137,27 +91,6 @@ They document key steps such as:
 - Misconfigurations are common attack vectors
 - Automation speeds up but understanding is key
 - Always think like an attacker AND defender
-
----
-
-👨‍💻 Author
-
-Your Name
-Cybersecurity Analyst | Penetration Tester | CTF Player
-
-- 💼 Building real-world cybersecurity skills
-- 🔐 Passionate about ethical hacking
-- 📈 Continuously learning and improving
-
----
-
-⭐ Support
-
-If you find this portfolio valuable:
-
-- ⭐ Star the repository
-- 🔁 Share with others
-- 💬 Give feedback
 
 ---
 
