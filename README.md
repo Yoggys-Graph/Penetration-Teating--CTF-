@@ -1,100 +1,155 @@
-# Penetration-Teating--CTF-
-Penetration testing stages.
-
-🛡️ Cybersecurity CTF Portfolio – TryHackMe Writeups
-
----
-
-📌 About This Repository
-
-Welcome to my Cybersecurity CTF Portfolio, a curated collection of TryHackMe room writeups documenting my hands-on journey through penetration testing and ethical hacking.
+# CTF-Write-up
+  Capture time flag
+🛡️ CTF Write-up: [SOC Analyst]
 
 ---
 
-🎯 Portfolio Goals
+## 📌 Challenge Overview
 
-- Demonstrate practical penetration testing skills
-- Document real-world attack methodologies
-- Build a strong cybersecurity portfolio for recruiters
-- Track progress across different difficulty levels
-
----
-
-🧠 Skills Demonstrated
-
-- Network Scanning & Enumeration
-- Web Application Exploitation
-- Credential Attacks (Brute-force, Password Spraying)
-- Linux Privilege Escalation
-- Post-Exploitation Techniques
-- Security Tooling & Automation
+- Platform: [TryHackMe]
+- Difficulty: [Easy]
+- Category: [Network / Web / Forensics / SOC / Threat Detection]
+- Date Completed: [DD-05-2026]
 
 ---
 
-🧩 Featured Rooms
+## 🎯 Objective
 
-🟢 Easy Rooms
+Briefly describe the goal of the challenge.
 
-- Basic Enumeration Labs
-- Intro to Web Exploitation
-- Beginner Linux Privilege Escalation
+«Example: Detect suspicious activity and identify the flag from compromised system logs.»
 
 ---
 
-🔥 PENTEST_COMPLETE
+### 🧠 Scenario (Very Important for Analysts)
 
-- Full penetration testing workflow
-- Brute-force attack + SSH access
-- Privilege escalation using misconfigured sudo
+Describe the real-world context.
 
-🚩 Flag Captured:
-
-THM{PENTEST_COMPLETE}
+«Example: A company detected unusual login attempts. As a security analyst, your task is to investigate logs and identify potential compromise.»
 
 ---
 
-🔴 Hard Rooms
+## 🛠️ Tools & Technologies
 
-- Advanced exploitation scenarios
-- Chained vulnerabilities
-- Deep privilege escalation techniques
-
----
-
-🛠️ Tools Used
-
-- "nmap" – Network scanning
-- "gobuster" – Directory enumeration
-- "hydra" – Brute-force attacks
-- "burpsuite" – Web testing
-- "linpeas" – Privilege escalation
-- "netcat" – Reverse shells
+- Wireshark
+- Splunk / ELK
+- Nmap
+- Linux CLI
+- [Add others]
 
 ---
 
-📸 Screenshots
+### 🔎 Step 1: Initial Analysis
 
-- Scan results
-- Exploits
-- Shell access
-- Flag capture
+Explain how you started.
 
-![Nmap Scan](screenshots/nmap-scan.png)
+- Reviewed logs / scanned system
+- Identified unusual activity
 
----
+### 🔍 Key Findings:
 
-🧾 Lessons Learned
-
-- Enumeration is the most critical phase
-- Misconfigurations are common attack vectors
-- Automation speeds up but understanding is key
-- Always think like an attacker AND defender
+- Suspicious IP:
+- Unusual port activity:
+- Abnormal login attempts:
 
 ---
 
-⚠️ Disclaimer
+### 📊 Step 2: Investigation
 
-This repository is for educational purposes only.
-All activities were performed in legal, controlled environments (TryHackMe labs).
+Break down your analysis process.
+
+Example:
+
+- Checked login logs
+- Identified repeated failed attempts
+- Found successful login after brute-force
+
+grep "Failed password" auth.log
+
+Findings:
+
+- Multiple failed logins detected
+- Successful login from unknown IP
 
 ---
+
+### 🚨 Step 3: Threat Identification
+
+Explain what type of attack occurred.
+
+- Brute-force attack
+- Phishing attempt
+- SQL Injection
+- Malware activity
+
+---
+
+## 🧾 Evidence Collected
+
+- IP addresses
+- Log entries
+- File names
+- URLs
+
+---
+
+## 🏁 Flag
+
+flag{THM{PENTEST_COMPLETE}
+
+⚠️ Follow platform rules when sharing flags.
+
+---
+
+## ⚠️ Risk Assessment
+
+Explain impact clearly (this impresses recruiters):
+
+- Unauthorized system access
+- Data exposure risk
+- Potential lateral movement
+
+---
+
+## 🔐 Mitigation & Recommendations (VERY IMPORTANT)
+
+Provide real-world solutions:
+
+- Enable account lockout policies
+- Implement multi-factor authentication (MFA)
+- Monitor logs continuously
+- Block malicious IP addresses
+- Use SIEM alerts
+
+---
+
+## 🧠 Lessons Learned
+
+- Importance of log analysis
+- Detecting brute-force patterns
+- Real-world SOC workflow
+
+---
+
+## 🔗 Mapping to Frameworks (Optional but Powerful)
+
+- MITRE ATT&CK:
+  - T1110 – Brute Force
+  - T1078 – Valid Accounts
+
+---
+
+## 📸 Screenshots
+
+Include:
+
+![Image 1](https://github.com/Yoggys-Graph/SIEM-Dashboard/blob/main/assets/Pentesting%20for%20Portfolio-1.png)
+![Image 2](https://github.com/Yoggys-Graph/SIEM-Dashboard/blob/main/assets/Pentesting%20for%20Portfolio-2.png)
+![Image 3](https://github.com/Yoggys-Graph/SIEM-Dashboard/blob/main/assets/Pentesting%20for%20Portfolio-3.png)
+![Image 4](https://github.com/Yoggys-Graph/SIEM-Dashboard/blob/main/assets/Pentesting%20for%20Portfolio-4.png)
+![Image 5](https://github.com/Yoggys-Graph/SIEM-Dashboard/blob/main/assets/Pentesting%20for%20Portfolio-5.png)
+![Image 6](https://github.com/Yoggys-Graph/SIEM-Dashboard/blob/main/assets/Pentesting%20for%20Portfolio-6.png)
+![Image 7](https://github.com/Yoggys-Graph/SIEM-Dashboard/blob/main/assets/Pentesting%20for%20Portfolio-7.png)
+
+---
+
