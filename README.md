@@ -74,14 +74,12 @@ THM{PENTEST_COMPLETE}
 
 📸 Screenshots
 
-All screenshots are stored in:
-
-
-
 - Scan results
 - Exploits
 - Shell access
 - Flag capture
+
+![Nmap Scan](screenshots/nmap-scan.png)
 
 ---
 
